@@ -1,19 +1,12 @@
-## Getting Started
+## Olá Alunos
+Bem vindos ao nosso código de banco de dados
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Estrutura de pastas
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# BancodeDados
+O espaço de trabalho conta com a seguinte estrutura de pastas:
+- `**src**`: the folder to maintain sources
+   * control -> Pacote que ficam as classes de controle de transações;
+   * **DAO** -> Pacote que contém as classes que manipularão o banco de dados;
+   * **model** -> Pacote onde ficam as classes de estrutura
+   * **view** -> Pacote no qual estão todas as classes de visualização
+- `**lib**`: pacote onde ficam as bibliotecas
